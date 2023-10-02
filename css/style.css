@@ -6,7 +6,8 @@
 header {
     background-color: cornflowerblue;
     background-image: url(../img/pattern.png);
-    background-size: 30rem;
+    background-position: top;
+    background-size: 27.5rem;
     padding-left: 0.5rem;
 }
 
@@ -34,6 +35,6 @@ h1 {
 .logo {
     padding-top: 3rem;
     padding-bottom: 0.5rem;
-    width: 15rem;
+    width: 13rem;
 }
 
