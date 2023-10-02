@@ -12,7 +12,7 @@ header {
 }
 
 main {
-    padding-left: 0.5rem;
+    padding: 0 0.5rem;
 }
 
 h1 {
@@ -28,8 +28,65 @@ h1 {
     text-decoration: none;
 }
 
+.article-imgs img{
+    height: 22rem;
+}
+
 .article-publication-date{
     font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.article-right-img-caption {
+    margin-bottom: 1rem;
+}
+
+.article-table {
+    border-spacing: 0;
+    margin-bottom: 1rem;
+}
+
+th{
+    font-weight: normal;
+    text-align: start;
+}
+
+.article-table-horizontal-three{
+    width: 50%;
+}
+
+.article-table-row-index {
+    background-color: rgb(0, 183, 255);
+    text-wrap: nowrap;
+}
+
+.article-table-row-index th{
+    color: white;
+    font-weight: bold;
+}
+
+.article-table-row-skyblue {
+    background-color: skyblue;
+}
+
+.article-text {
+    font-size: 1.05rem;
+}
+
+.article-text-list {
+    margin-bottom: 1rem;
+}
+
+.article-text-list-item {
+    margin-left: 1rem;
+}
+
+.article-text span{
+    background-color: yellow;
+}
+
+.article-paragraph {
+    margin-bottom: 1rem;
 }
 
 .logo {
@@ -38,3 +95,6 @@ h1 {
     width: 13rem;
 }
 
+.img-caption {
+    font-size: 0.8rem;
+}
